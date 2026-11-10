@@ -1,0 +1,45 @@
+name: movil
+description: "RutaLink — Conectando transportistas, operadores logísticos y cargadores."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Animations
+  flutter_animate: ^4.5.0
+
+  # Shimmer skeletons
+  shimmer: ^3.0.0
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Local persistence
+  shared_preferences: ^2.3.2
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
